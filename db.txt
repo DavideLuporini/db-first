@@ -1,0 +1,29 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+id -> INT, NOT_NULL,AUTO_INCREMENT,UNIQUE - PRIMARY KEY
+marca -> VARCHAR(15),NOT_NULL
+prezzo -> MEDIUMINT,NOT_NULL
+anno di immatricolazione -> YEAR
+modello -> VARCHAR(25),NOT_NULL
+cilindrata -> SMALLINT,NOT_NULL
+peso -> SMALLINT
+chilometraggio -> MEDIUMINT
+tipologia -> VARCHAR(10),NOT_NULL
+numero di porte -> TINYINT
+posti -> TINYINT(6)
+alimentazione -> TINYINT(10)
+accessori -> VARCHAR(50)
+descrizione -> TEXT
+classe di emissione -> CHAR(3)
+colore -> CHAR(10)
+classe consumo -> char (5)
+stato auto (valutazione) -> TINYINT(5)
+garanzia -> Bool
+ABS + EBD -> Bool
+Airbag guida -> Bool
+Airbag passeggero  -> Bool
+Chiave elettronica (CODE) -> Bool
+Correttore assetto fari -> Bool
+Volante regolabile -> Bool
+
